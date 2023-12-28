@@ -16,13 +16,13 @@ import { XIcon } from "@/components/icons/XIcon";
 
 export const RESUME_DATA = {
   name: "Hasham Qaiser",
-  initials: "BJ",
+  initials: "HQ",
   location: "Los Angeles, California  ",
   locationLink: "https://www.google.com/maps/place/LosAngeles",
   about:
-    "Full Stack Engineer focused on building products with extra attention to details",
+    " Frontend engineer based in sunny southern California. My interests extends to AI, functional UI/UX designs, and pioneering web experiences that transcend convention.",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+    "I am a results-driven Lead Frontend Developer with a proven track record in spearheading the development of MVPs for startups. My expertise includes crafting comprehensive Frontend user experiences and collaborating seamlessly with cross-functional teams. I excel in understanding client business goals and translating them into effective, meaningful, and user-centric solutions.",
   avatarUrl:
     "https://avatars.githubusercontent.com/u/117246204?s=400&u=2da4baac6a6dab3563b69b7772aa91203d62a650&v=4",
   personalWebsiteUrl: "https://www.hasham.xyz/",
@@ -32,17 +32,17 @@ export const RESUME_DATA = {
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/hasham-qaiser",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/hasham-qaiser/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://twitter.com/hashq_",
         icon: XIcon,
       },
     ],
@@ -57,7 +57,7 @@ export const RESUME_DATA = {
       start: "2023",
       end: "Current",
       description:
-        "Contributing to an open-source repository by translating Figma designs into functional TypeScriptReact components.",
+        "Front-End Developer on the Expunge Assist team, Contributing to an open-source repository by translating Figma designs into functional TypeScriptReact components.",
     },
     {
       company: "Stealth Startup",
@@ -108,73 +108,34 @@ export const RESUME_DATA = {
     },
     {
       title: "Jpeg Explorer",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
+      techStack: ["Side Project", "React", "CSS"],
+      description: "Advanced NFT Wallet Analysis on Ethereum",
+
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "Jpeg Explorer",
+        href: "https://jpeg-explorer.vercel.app/",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "Location Weather",
+      techStack: ["Side Project", "HTML", "JavaScript", "CSS"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
+        "A simple web app that displays the current weather from any destination, Including a few magic touches.",
+
       link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
+        label: "Location Weather",
+        href: "http://weather-app-seven-self.vercel.app/",
       },
     },
     {
-      title: "Ha",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Expunge Assist",
+      techStack: ["HackforLA", "Typescript", "React", "Material-MUI", "Figma"],
       description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
+        " Expunge Assist aims to help individuals in California to reduce, dismiss, or seal their criminal records as a result of Prop 47 & Prop 64.",
+
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "EA",
+        href: "https://www.hackforla.org/",
       },
     },
   ],
