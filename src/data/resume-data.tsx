@@ -1,5 +1,6 @@
 import { GitHubIcon } from "@/components/icons/GitHubIcon";
 import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
+import { Home } from "lucide-react";
 import { XIcon } from "@/components/icons/XIcon";
 
 export const RESUME_DATA = {
@@ -18,6 +19,11 @@ export const RESUME_DATA = {
     email: "hashamqaiser24@gmail.com",
 
     social: [
+      {
+        name: "Website",
+        url: "https://www.hasham.xyz/",
+        icon: Home,
+      },
       {
         name: "GitHub",
         url: "https://github.com/hasham-qaiser",
