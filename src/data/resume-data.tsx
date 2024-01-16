@@ -40,7 +40,7 @@ export const RESUME_DATA = {
     {
       company: "HackForLA",
       link: "https://www.hackforla.org/",
-      badges: ["Remote"],
+      badges: ["Remote", "Open-Source", "Volunteer"],
       title: "Front-End Developer",
       start: "2023",
       end: "Current",
@@ -96,7 +96,14 @@ export const RESUME_DATA = {
     },
     {
       title: "Jpeg Explorer",
-      techStack: ["Side Project", "React", "CSS"],
+      techStack: [
+        "Side Project",
+        "React",
+        "CSS",
+        "NFTs",
+        "Wallet Explorer",
+        "Web3",
+      ],
       description: "Advanced NFT Wallet Analysis on Ethereum",
 
       link: {
@@ -117,7 +124,14 @@ export const RESUME_DATA = {
     },
     {
       title: "Expunge Assist",
-      techStack: ["HackforLA", "Typescript", "React", "Material-MUI", "Figma"],
+      techStack: [
+        "HackforLA",
+        "Open-Source",
+        "Typescript",
+        "React",
+        "Material-MUI",
+        "Figma",
+      ],
       description:
         " Expunge Assist aims to help individuals in California to reduce, dismiss, or seal their criminal records as a result of Prop 47 & Prop 64.",
 
