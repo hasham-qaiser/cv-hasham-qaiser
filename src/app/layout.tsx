@@ -3,6 +3,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { Inter } from "next/font/google";
 
 import "./globals.css";
+import { ThemeProvider } from "@/components/ui/theme-provider";
 import React from "react";
 
 export const metadata: Metadata = {
@@ -23,7 +24,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.className}>
-      <body>{children}</body>
+      <body>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
+      </body>
       <Analytics />
     </html>
   );
