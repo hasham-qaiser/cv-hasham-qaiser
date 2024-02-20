@@ -2,6 +2,7 @@ import { GitHubIcon } from "@/components/icons/GitHubIcon";
 import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
 import { Home } from "lucide-react";
 import { XIcon } from "@/components/icons/XIcon";
+import coursera from "@/images/logos/coursera.svg";
 
 export const RESUME_DATA = {
   name: "Hasham Qaiser",
@@ -83,6 +84,17 @@ export const RESUME_DATA = {
     "TailWind",
     "Node.js",
   ],
+
+  certifications: [
+    {
+      issuer: "Coursera",
+      link: "https://www.coursera.org/account/accomplishments/professional-cert/C28PC62YVD3T",
+      badges: [],
+      title: "Google UX Design",
+      date: "2022",
+    },
+  ],
+
   projects: [
     {
       title: "hasham.xyz",

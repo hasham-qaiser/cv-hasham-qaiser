@@ -127,6 +127,30 @@ export default function Page() {
         </Section>
 
         <Section>
+          <h2 className="text-xl font-bold">Certifications</h2>
+          <div className="flex flex-wrap gap-1">
+            {RESUME_DATA.certifications.map((certifications) => {
+              return (
+                <Card key={certifications.title}>
+                  <CardHeader>
+                    <div className="flex items-center justify-between gap-x-2 text-base">
+                      <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                        <a
+                          className="hover:underline"
+                          href={certifications.link}
+                        >
+                          {certifications.title}
+                        </a>
+                      </h3>
+                    </div>
+                  </CardHeader>
+                </Card>
+              );
+            })}
+          </div>
+        </Section>
+
+        <Section>
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-1">
             {RESUME_DATA.skills.map((skill) => {
